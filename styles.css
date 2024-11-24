@@ -49,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Hero Section */
 .hero-section {
-    background-image: url('/images/banner-morpho-automacao-contabil.png'); /* Caminho da imagem */
+    background-image: url('images/banner-morpho-automacao-contabil.png'); /* Caminho da imagem */
     background-size: cover;
     background-position: center;
     height: 100vh;
