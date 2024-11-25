@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Página Inicial -->
+  <url>
+    <loc>https://morphoautomacoes.com.br/</loc>
+    <lastmod>2024-11-22</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Seção Sobre Nós -->
+  <url>
+    <loc>https://morphoautomacoes.com.br/#about</loc>
+    <lastmod>2024-11-22</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Seção Serviços -->
+  <url>
+    <loc>https://morphoautomacoes.com.br/#services</loc>
+    <lastmod>2024-11-22</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Seção Depoimentos -->
+  <url>
+    <loc>https://morphoautomacoes.com.br/#testimonials</loc>
+    <lastmod>2024-11-22</lastmod>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Seção Contato -->
+  <url>
+    <loc>https://morphoautomacoes.com.br/#contact</loc>
+    <lastmod>2024-11-22</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
