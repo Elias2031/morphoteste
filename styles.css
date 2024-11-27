@@ -331,6 +331,25 @@ footer h5 {
     line-height: 1.5;
 }
 
+#custom-software {
+    background-color: #f9f9f9; /* Cor clara para contrastar com o restante */
+}
+
+#custom-software h2 {
+    color: var(--primary-color); /* Ajusta para a cor primária definida */
+    font-weight: bold;
+}
+
+#custom-software .card {
+    transition: transform 0.2s ease-in-out;
+}
+
+#custom-software .card:hover {
+    transform: translateY(-10px); /* Eleva o card ao passar o mouse */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+
 section {
     scroll-margin-top: 50px; /* Ajuste este valor com a altura exata do header */
 }
