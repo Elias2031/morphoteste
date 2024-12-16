@@ -1,5 +1,5 @@
 // URL base do backend
-const API_BASE_URL = "https://analisador-tributario-vercel-ff3jpsk26-elias-silvas-projects.vercel.app";
+const API_BASE_URL = "https://analisador-tributario-vercel-lnh5uk6an-elias-silvas-projects.vercel.app";
 let isProcessing = false; // Variável para rastrear o status de processamento
 let downloadUrl = null; // URL do arquivo gerado
 
