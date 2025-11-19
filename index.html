@@ -5,30 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Morpho Automações | Soluções em Automação Contábil</title>
-    <meta name="description" content="A Morpho Automações oferece soluções inovadoras em automação contábil para empresas de contabilidade. Reduza custos, economize tempo e modernize seus processos.">
-    <meta name="keywords" content="automação contábil, tecnologia para contabilidade, automação fiscal, redução de custos contábeis, ferramentas para contadores, analise tributaria automatica, Morpho Automações, morpho automacoes, Morpho Automação, morpho automacao ">
+    <meta name="description"
+        content="A Morpho Automações oferece soluções inovadoras em automação contábil para empresas de contabilidade. Reduza custos, economize tempo e modernize seus processos.">
+    <meta name="keywords"
+        content="automação contábil, tecnologia para contabilidade, automação fiscal, redução de custos contábeis, ferramentas para contadores, analise tributaria automatica, Morpho Automações, morpho automacoes, Morpho Automação, morpho automacao ">
     <meta name="author" content="Morpho Automações">
     <link rel="icon" href="https://morphoautomacoes.com.br/icons/logo-morpho-automacao-contabil.png" type="image/png">
-    <link rel="shortcut icon" href="https://morphoautomacoes.com.br/icons/icone-morpho-automacao-contabil.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://morphoautomacoes.com.br/icons/icone-morpho-automacao-contabil.ico"
+        type="image/x-icon">
     <!-- Redes sociais -->
     <meta property="og:title" content="Morpho Automações | Soluções em Automação Contábil">
-    <meta property="og:description" content="Transforme sua contabilidade com nossas ferramentas de automação contábil. Inovação para contadores e escritórios de contabilidade.">
+    <meta property="og:description"
+        content="Transforme sua contabilidade com nossas ferramentas de automação contábil. Inovação para contadores e escritórios de contabilidade.">
     <meta property="og:image" content="https://morphoautomacoes.com.br/icons/icone-morpho-automacao-contabil.ico">
     <meta property="og:url" content="https://morphoautomacoes.com.br">
     <meta property="og:type" content="website">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Morpho Automações | Soluções em Automação Contábil">
-    <meta name="twitter:description" content="Transforme sua contabilidade com nossas ferramentas de automação contábil. Inovação para contadores e escritórios de contabilidade.">
+    <meta name="twitter:description"
+        content="Transforme sua contabilidade com nossas ferramentas de automação contábil. Inovação para contadores e escritórios de contabilidade.">
     <meta name="twitter:image" content="https://morphoautomacoes.com/images/banner-morpho-automacao-contabil.png">
     <!-- Fontes e Estilos -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-     <!-- Toastify CSS -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- Toastify CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
 
-     <script type="application/ld+json">
+
+    <script type="application/ld+json">
         {
           "@context": "https://schema.org",
           "@type": "Organization",
@@ -49,6 +56,13 @@
           }
         }
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,   // duração da animação em ms
+            once: true       // anima apenas na primeira vez que entra na tela
+        });
+    </script>
 </head>
 
 <body>
@@ -68,7 +82,8 @@
                     <li class="nav-item"><a class="nav-link" href="#home">Início</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">Sobre Nós</a></li>
                     <li class="nav-item"><a class="nav-link" href="#services">Produtos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#testimonials">Depoimentos</a></li> <!-- Novo item -->
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Depoimentos</a></li>
+                    <!-- Novo item -->
                     <li class="nav-item"><a class="nav-link" href="#contact">Contato</a></li>
                 </ul>
             </div>
@@ -76,7 +91,8 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero-section text-center d-flex align-items-center justify-content-center">
+    <section id="home" class="hero-section text-center d-flex align-items-center justify-content-center"
+            data-aos="fade-up">
         <div class="container">
             <h1 style="color: #fff;">Automação Contábil para Escritórios Modernos</h1>
             <p class="lead">Automatizamos processos para simplificar sua gestão financeira e comercial</p>
@@ -93,19 +109,22 @@
                     <div class="d-flex align-items-start mb-3">
                         <i class="bi bi-gear-fill me-3 text-primary fs-3"></i>
                         <p class="fs-5 mb-0">
-                            Na <strong style="color: var(--primary-color);">Morpho Automações</strong>, oferecemos ferramentas para transformar a contabilidade, por meio de tecnologias avançadas.
+                            Na <strong style="color: var(--primary-color);">Morpho Automações</strong>, oferecemos
+                            ferramentas para transformar a contabilidade, por meio de tecnologias avançadas.
                         </p>
                     </div>
                     <div class="d-flex align-items-start mb-3">
                         <i class="bi bi-clock-fill me-3 text-primary fs-3"></i>
                         <p class="fs-5 mb-0">
-                            Localizada em Brasília, oferecemos soluções inovadoras que otimizam processos, economizam tempo e <strong style="color: var(--primary-color);">reduzem custos.</strong>
+                            Localizada em Brasília, oferecemos soluções inovadoras que otimizam processos, economizam
+                            tempo e <strong style="color: var(--primary-color);">reduzem custos.</strong>
                         </p>
                     </div>
                     <div class="d-flex align-items-start">
                         <i class="bi bi-graph-up-arrow me-3 text-primary fs-3"></i>
                         <p class="fs-5 mb-0">
-                            Escolha a <strong style="color: var(--primary-color);">Morpho Automações</strong> e modernize seu escritório contábil com soluções que realmente fazem a diferença.
+                            Escolha a <strong style="color: var(--primary-color);">Morpho Automações</strong> e
+                            modernize seu escritório contábil com soluções que realmente fazem a diferença.
                         </p>
                     </div>
                 </div>
@@ -171,12 +190,16 @@
                     <div class="card border-0 shadow h-100">
                         <div class="card-body text-start">
                             <h3 class="card-title mb-3">Speed-Sped</h3>
-                            <p class="card-text text-muted">Corrija erros ou altere o SPED Fiscal em segundos, com rapidez e precisão!</p>
+                            <p class="card-text text-muted">Corrija erros ou altere o SPED Fiscal em segundos, com
+                                rapidez e precisão!</p>
                             <ul class="list-unstyled mt-3">
-                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Reduz o tempo gasto em processos manuais.</li>
-                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Valida automaticamente os dados antes do envio,
+                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Reduz o tempo gasto em
+                                    processos manuais.</li>
+                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Valida automaticamente os
+                                    dados antes do envio,
                                     minimizando riscos de autuações.</li>
-                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Gera relatórios completos para auditorias e análises gerenciais.</li>
+                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Gera relatórios completos
+                                    para auditorias e análises gerenciais.</li>
                             </ul>
                         </div>
                         <div class="card-footer bg-white border-0 text-center">
@@ -188,12 +211,70 @@
         </div>
     </section>
 
+    <!-- Clientes -->
+    <section id="clients" class="py-5" 
+    style="
+        background-color: #0b1f3a;
+        box-shadow: inset 0 0 40px rgba(0,0,0,0.45);
+    ">
+        <div class="container text-center">
+            <h2 class="mb-4 fw-bold text-white">Clientes que confiam na Morpho</h2>
+            <p class="text-light mb-5" style="font-size: 1.1rem;">
+                Empresas que já utilizam nossas soluções para automatizar processos contábeis.
+            </p>
+
+            <div id="clientsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                <div class="carousel-inner align-items-center">
+
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="d-flex justify-content-center gap-5">
+                            <img src="images/clientes/logo_central.png" class="img-fluid"
+                                style="max-height: 70px; filter: brightness(0) invert(1);">
+                            <img src="images/clientes/logo-metacon-branca.png" class="img-fluid"
+                                style="max-height: 70px; filter: brightness(0) invert(1);">
+                            <img src="images/clientes/logo_prestacon.png" class="img-fluid"
+                                style="max-height: 70px; filter: brightness(0) invert(1);">
+                        </div>
+                    </div>
+
+                    <!-- Slide 2
+                    <div class="carousel-item">
+                        <div class="d-flex justify-content-center gap-5">
+                            <img src="img/clientes/cliente4.png" class="img-fluid"
+                                style="max-height: 70px; filter: brightness(0) invert(1);">
+                            <img src="img/clientes/cliente5.png" class="img-fluid"
+                                style="max-height: 70px; filter: brightness(0) invert(1);">
+                            <img src="img/clientes/cliente6.png" class="img-fluid"
+                                style="max-height: 70px; filter: brightness(0) invert(1);">
+                        </div>
+                    </div> -->
+
+                </div>
+
+                <!-- Controles -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#clientsCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" style="filter: invert(1);"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#clientsCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" style="filter: invert(1);"></span>
+                </button>
+
+            </div>
+        </div>
+    </section>
+
     <section id="custom-software" class="py-5 bg-light">
         <div class="container text-center">
-            <h2 class="mb-4 fw-bold" style="color: var(--primary-color);">Desenvolvimento de Softwares Personalizados</h2>
+            <h2 class="mb-4 fw-bold" style="color: var(--primary-color);">Desenvolvimento de Softwares Personalizados
+            </h2>
             <p class="text-muted mb-5" style="font-size: 1.1rem;">
-                Criamos soluções sob medida para atender às necessidades específicas do seu negócio. Nossos softwares são projetados para 
-                otimizar processos, aumentar a eficiência e proporcionar resultados que impulsionam o crescimento da sua empresa.
+                Criamos soluções sob medida para atender às necessidades específicas do seu negócio. Nossos softwares
+                são projetados para
+                otimizar processos, aumentar a eficiência e proporcionar resultados que impulsionam o crescimento da sua
+                empresa.
             </p>
             <div class="row g-4">
                 <!-- Card 1 -->
@@ -202,12 +283,14 @@
                         <div class="card-body text-start">
                             <h5 class="card-title mb-3">Soluções sob medida</h5>
                             <p class="card-text text-muted">
-                                Desenvolvemos softwares que atendem às suas demandas específicas, integrando-se perfeitamente aos seus processos.
+                                Desenvolvemos softwares que atendem às suas demandas específicas, integrando-se
+                                perfeitamente aos seus processos.
                             </p>
                             <ul class="list-unstyled mt-3">
                                 <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Alta personalização.</li>
                                 <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Foco em resultados.</li>
-                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Escalável para crescimento.</li>
+                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Escalável para crescimento.
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -218,11 +301,14 @@
                         <div class="card-body text-start">
                             <h5 class="card-title mb-3">Integração Completa</h5>
                             <p class="card-text text-muted">
-                                Criamos softwares que se conectam com outras ferramentas e sistemas, garantindo processos contínuos e produtivos.
+                                Criamos softwares que se conectam com outras ferramentas e sistemas, garantindo
+                                processos contínuos e produtivos.
                             </p>
                             <ul class="list-unstyled mt-3">
-                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Compatibilidade com ERPs.</li>
-                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Integração com APIs de terceiros.</li>
+                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Compatibilidade com ERPs.
+                                </li>
+                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Integração com APIs de
+                                    terceiros.</li>
                                 <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Automação completa.</li>
                             </ul>
                         </div>
@@ -238,8 +324,10 @@
                             </p>
                             <ul class="list-unstyled mt-3">
                                 <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Desenvolvimento ágil.</li>
-                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Segurança e confiabilidade.</li>
-                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Arquitetura flexível e robusta.</li>
+                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Segurança e confiabilidade.
+                                </li>
+                                <li><i class="bi bi-check-circle-fill text-primary me-2"></i>Arquitetura flexível e
+                                    robusta.</li>
                             </ul>
                         </div>
                     </div>
@@ -250,9 +338,8 @@
             </div>
         </div>
     </section>
-    
 
-    <!-- Depimentos -->
+    <!-- Depoimentos -->
     <section id="testimonials" class="py-5 bg-light">
         <div class="container">
             <h2 class="text-center mb-4 fw-bold" style="color: var(--primary-color);">O que nossos clientes dizem</h2>
@@ -277,7 +364,8 @@
                     <div class="card shadow border-0">
                         <div class="card-body">
                             <p class="card-text text-muted">
-                                "Ferramentas intuitivas e suporte técnico excelente. Recomendo para todos os escritórios contábeis."
+                                "Ferramentas intuitivas e suporte técnico excelente. Recomendo para todos os escritórios
+                                contábeis."
                             </p>
                             <h6 class="fw-bold mt-3" style="color: var(--primary-color);">Maria Oliveira</h6>
                             <p class="text-muted mb-0">Empresária</p>
@@ -299,28 +387,30 @@
             </div>
         </div>
     </section>
-    
+
     <!-- Contato -->
-    <section id="contact" class="py-5 d-flex align-items-center justify-content-center" style="min-height: 100vh; background-color: #f9f9f9;">
+    <section id="contact" class="py-5 d-flex align-items-center justify-content-center"
+        style="min-height: 100vh; background-color: #f9f9f9;">
         <div class="container">
             <h2 class="text-center mb-4 fw-bold">Entre em Contato</h2>
-            <p class="text-center text-muted mb-5 fs-5">Modernize seu escritório contábil com nossas ferramentas de automação. Fale conosco hoje mesmo!</p>
-            <form
-                action="https://formspree.io/f/mbljalpj"
-                method="POST"
-                class="row g-4 mx-auto shadow-lg p-4 bg-white rounded"
-                style="max-width: 700px;">
+            <p class="text-center text-muted mb-5 fs-5">Modernize seu escritório contábil com nossas ferramentas de
+                automação. Fale conosco hoje mesmo!</p>
+            <form action="https://formspree.io/f/mbljalpj" method="POST"
+                class="row g-4 mx-auto shadow-lg p-4 bg-white rounded" style="max-width: 700px;">
                 <div class="col-md-6">
                     <label for="name" class="form-label fw-bold text-secondary">Nome Completo</label>
-                    <input type="text" name="name" class="form-control shadow-sm" id="name" placeholder="Seu Nome" required>
+                    <input type="text" name="name" class="form-control shadow-sm" id="name" placeholder="Seu Nome"
+                        required>
                 </div>
                 <div class="col-md-6">
                     <label for="email" class="form-label fw-bold text-secondary">Email</label>
-                    <input type="email" name="email" class="form-control shadow-sm" id="email" placeholder="seuemail@exemplo.com" required>
+                    <input type="email" name="email" class="form-control shadow-sm" id="email"
+                        placeholder="seuemail@exemplo.com" required>
                 </div>
                 <div class="col-md-6">
                     <label for="phone" class="form-label fw-bold text-secondary">Telefone</label>
-                    <input type="tel" name="phone" class="form-control shadow-sm" id="phone" placeholder="(XX) XXXXX-XXXX" required>
+                    <input type="tel" name="phone" class="form-control shadow-sm" id="phone"
+                        placeholder="(XX) XXXXX-XXXX" required>
                 </div>
                 <div class="col-md-6">
                     <label for="subject" class="form-label fw-bold text-secondary">Assunto</label>
@@ -334,7 +424,8 @@
                 </div>
                 <div class="col-12">
                     <label for="message" class="form-label fw-bold text-secondary">Mensagem</label>
-                    <textarea name="message" class="form-control shadow-sm" id="message" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+                    <textarea name="message" class="form-control shadow-sm" id="message" rows="5"
+                        placeholder="Escreva sua mensagem aqui..." required></textarea>
                 </div>
                 <div class="col-12 text-center">
                     <button type="submit" class="btn btn-primary btn-lg px-5 shadow">Enviar</button>
@@ -350,7 +441,8 @@
                 <!-- Sobre Nós -->
                 <div class="col-md-4 mb-4">
                     <h5 class="text-uppercase fw-bold">Sobre Nós</h5>
-                    <p>A <strong>Morpho Automações</strong> oferece soluções inovadoras para simplificar processos contábeis, modernizando escritórios e aumentando a eficiência das empresas.</p>
+                    <p>A <strong>Morpho Automações</strong> oferece soluções inovadoras para simplificar processos
+                        contábeis, modernizando escritórios e aumentando a eficiência das empresas.</p>
                 </div>
                 <!-- Links Úteis -->
                 <div class="col-md-2 mb-4">
@@ -403,10 +495,10 @@
             </div>
         </div>
     </footer>
-    
+
     <!-- Botão Flutuante Whatsapp -->
     <a href="https://wa.me/5561991129201?text=Olá,%20tenho%20interesse%20nas%20soluções%20de%20automação%20contábil!"
-    class="whatsapp-float" target="_blank" aria-label="Entre em contato pelo WhatsApp">
+        class="whatsapp-float" target="_blank" aria-label="Entre em contato pelo WhatsApp">
         <img src="https://img.icons8.com/color/48/000000/whatsapp--v1.png" alt="WhatsApp">
     </a>
 
@@ -416,13 +508,26 @@
     <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <!-- JSON Organização -->
 
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Toastify JS -->
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+    </script>
+
     <script>
         const form = document.querySelector("form");
-    
+
         form.addEventListener("submit", async (e) => {
             e.preventDefault(); // Previne o comportamento padrão do formulário
             const formData = new FormData(form);
-    
+
             try {
                 const response = await fetch(form.action, {
                     method: "POST",
@@ -431,7 +536,7 @@
                         'Accept': 'application/json'
                     }
                 });
-    
+
                 if (response.ok) {
                     Toastify({
                         text: "Mensagem enviada com sucesso!",
